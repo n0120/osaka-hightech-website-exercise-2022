@@ -1,10 +1,4 @@
 .debug {
     border: 1px dashed red;
+    text-align: center;
   }
-
-.scale {
-  display     : inline-block;    /* 変形するためのブロック化 */
-  font-size   : 24pt;            /* 文字サイズ */
-  line-height : 1em;             /* 行の高さ */
-  transform   : scale(0.3, 5.0);   /* 変形 横,縦 */
-}
