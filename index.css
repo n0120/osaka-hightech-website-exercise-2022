@@ -2,3 +2,17 @@
     border: 1px dashed red;
     text-align: center;
   }
+
+  .name {
+    border: 5px solid darkblue;
+    width: 300px;
+    margin: 10%;
+    padding: 10%;
+  }
+
+  .title {
+    border: 5px solid darkblue;
+    width: 300px;
+    margin: 10%;
+    padding: 10%;
+  }
