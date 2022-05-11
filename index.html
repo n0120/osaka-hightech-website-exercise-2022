@@ -1,83 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta charset="utf-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ページタイトル -->
+  <title>○○'s Portfolio Page</title>
+
+  <!-- Bootstrap CSS の読み込み -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- 独自 CSS の読み込み -->
+  <link href="index.css" rel="stylesheet">
 </head>
 
-<body style="margin: 0;">
+<body>
+  <!-- 年齢 / 性別 & 氏名 / タイトル -->
+  <div class="container">
+    <div class="row">
+      <div class="col-2 box">
+        年齢 / 性別
+      </div>
+      <div class="col-10 title">
+        氏名 / タイトル
+      </div>
+    </div>
+  </div>
 
-<div id="p1" style="overflow: hidden; position: relative; background-color: white; width: 825px; height: 1466px;">
+  <!-- 制作実績 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-5 debug">
+        制作実績
+      </div>
+      <div class="col-2 debug">
+        ↓
+      </div>
+      <div class="col-5 debug">
+        制作実績
+      </div>
+    </div>
+  </div>
 
-<!-- Begin shared CSS values -->
-<style class="shared-css" type="text/css" >
-.t {
-	transform-origin: bottom left;
-	z-index: 2;
-	position: absolute;
-	white-space: pre;
-	overflow: visible;
-	line-height: 1.5;
-}
-.text-container {
-	white-space: pre;
-}
-@supports (-webkit-touch-callout: none) {
-	.text-container {
-		white-space: normal;
-	}
-}
-</style>
-<!-- End shared CSS values -->
-
-
-<!-- Begin inline CSS -->
-<style type="text/css" >
-
-#t1_1{left:90px;bottom:1338px;letter-spacing:0.56px;}
-#t2_1{left:105px;bottom:1319px;letter-spacing:0.56px;}
-#t3_1{left:440px;bottom:1329px;letter-spacing:0.56px;}
-#t4_1{left:171px;bottom:1057px;letter-spacing:0.56px;}
-#t5_1{left:288px;bottom:120px;letter-spacing:0.56px;}
-#t6_1{left:591px;bottom:902px;letter-spacing:0.56px;}
-#t7_1{left:171px;bottom:766px;letter-spacing:0.56px;}
-#t8_1{left:591px;bottom:612px;letter-spacing:0.56px;}
-#t9_1{left:171px;bottom:474px;letter-spacing:0.56px;}
-
-.s1{font-size:15px;font-family:NotoSansCJKjp-Regular-VKana_5;color:#000;}
-</style>
-<!-- End inline CSS -->
-
-<!-- Begin embedded font definitions -->
-<style id="fonts1" type="text/css" >
-
-@font-face {
-	font-family: NotoSansCJKjp-Regular-VKana_5;
-	src: url("fonts/NotoSansCJKjp-Regular-VKana_5.woff") format("woff");
-}
-
-</style>
-<!-- End embedded font definitions -->
-
-<!-- Begin page background -->
-<div id="pg1Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
-<div id="pg1" style="-webkit-user-select: none;"><object width="825" height="1466" data="1/1.svg" type="image/svg+xml" id="pdf1" style="width:825px; height:1466px; -moz-transform:scale(1); z-index: 0;"></object></div>
-<!-- End page background -->
-
-
-<!-- Begin text definitions (Positioned/styled in CSS) -->
-<div class="text-container"><span id="t1_1" class="t s1">ここ年齢とか </span>
-<span id="t2_1" class="t s1">性別とか </span>
-<span id="t3_1" class="t s1">氏名とかタイトルとか </span>
-<span id="t4_1" class="t s1">制作実績 </span>
-<span id="t5_1" class="t s1">スキルリストとか資格とか免許とか </span>
-<span id="t6_1" class="t s1">制作実績<br>表示テスト<br>表示テスト<br>表示テスト<br>表示テスト </span>
-<span id="t7_1" class="t s1">制作実績 </span>
-<span id="t8_1" class="t s1">制作実績 </span>
-<span id="t9_1" class="t s1">制作実績 </span></div>
-<!-- End text definitions -->
-
-
-</div>
+  <!-- スキルリスト / 資格・免許 -->
+  <div class="container">
+    <div class="row">
+      <div class="col debug">
+        スキルリスト / 資格・免許
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
