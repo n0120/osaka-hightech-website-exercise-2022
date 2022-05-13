@@ -1,13 +1,13 @@
-.debug {
+  .debug {
     border: 2px solid black;
-    text-align: center;
+    text-align: left;
     min-height: 150px;
     width: 520px;
-    height:60px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     border-radius: 40px 40px 40px 40px;
   }
 
@@ -26,15 +26,16 @@
   .name {
     border: 2px solid black;
     border-radius: 40px 40px 40px 40px;
-    text-align: center;
+    text-align: left;
     width: 220px;
     margin: 30px;
+    margin-left: 80px;
   }
 
   .kuhaku {
     border: 0px solid black;
     text-align: center;
-    width: 100px;
+    width: 50px;
     min-height: 150px;
     display: flex;
     flex-direction: column;
@@ -45,13 +46,13 @@
   .title {
     border: 2px solid black;
     border-radius: 40px 40px 40px 40px;
-    text-align: center;
+    text-align: left;
     width: 670px;
     min-height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     margin: 30px;
   }
 
@@ -78,3 +79,19 @@
     justify-content: center;
     align-items: center;
   } 
+
+  .mgr-400{
+    margin-left : 400px;
+}
+
+  .mgr-430{
+    margin-left : 430px;
+}
+
+.mgr-100{
+  margin-left : 100px;
+}
+
+.mgr-130{
+  margin-left : 130px;
+}
